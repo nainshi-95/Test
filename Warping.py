@@ -70,3 +70,31 @@ warped_output = warp_high_precision(ref_frame_high, flow_data, scale_factor=16)
 
 print(f"Input Ref Shape: {ref_frame_high.shape}")
 print(f"Output Shape: {warped_output.shape}") # (1, 3, 64, 64)가 나와야 함
+
+
+
+
+
+
+
+
+
+    "terminal.integrated.useWslProfiles": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "terminal-bash"
+        }
+    }
+
